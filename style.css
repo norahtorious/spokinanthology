@@ -1,17 +1,21 @@
 body {
     background-color: #C49102; /* Dark mustard yellow */
     color: white;
-    font-family: 'Lora', serif;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .header-title {
-    font-family: 'Danfo', serif;
-    font-size: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .nav-pane {
-    font-family: 'Lora', serif;
-    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
     text-align: right;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
@@ -29,6 +33,12 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-style: italic;
+    font-size: 24px;
+    color: #C49102;
+}
+
+.emphasis {
     font-style: italic;
     font-size: 24px;
     color: #C49102;

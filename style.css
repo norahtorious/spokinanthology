@@ -64,7 +64,7 @@ font-size: 50px;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2px;
+    height: 10px;
     background: #C49102; /* White color for the heartbeat line */
     animation: voice 2s infinite;
 }

@@ -1,10 +1,14 @@
 body {
-    background-color: #C49102; /* Dark mustard yellow */
-    color: white;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+.header-section{
+        background-color: #C49102; /* Dark mustard yellow */
+    color: white;
+}
+
 
 .header-title {
 font-family: "Bodoni Moda", serif;

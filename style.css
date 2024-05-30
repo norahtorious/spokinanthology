@@ -83,3 +83,60 @@ font-size: 50px;
     50% { transform: translateX(0); }
     100% { transform: translateX(0); }
 }
+
+
+.poem-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.poem-title {
+    font-family:  "Bodoni Moda", serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.poem-author {
+    font-family:  "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.poem-text {
+    font-family:  "Ubuntu", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.poem-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.explanation {
+    background-color: #333; /* Dark grey */
+    color: white;
+    padding: 40px 0;
+}
+
+.explanation-title {
+    font-family: "Bodoni Moda", serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.explanation-essay {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.large-photo img {
+    width: 100%;
+    height: auto;
+}
